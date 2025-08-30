@@ -35,6 +35,9 @@ span {
 }
 
 @media (max-width: 768px) {
+    html, body{
+        grid-template-columns: repeat(1, 1fr);
+    }
     .intro, #info{
         font-size: 5rem;
     }
