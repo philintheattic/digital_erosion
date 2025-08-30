@@ -33,3 +33,15 @@ span {
 .hidden{
     display: none !important;
 }
+
+@media (max-width: 768px) {
+    .intro, #info{
+        font-size: 5rem;
+    }
+    span {
+        font-size: 1.5rem;
+    }
+    .hideonmobile {
+        display: none;
+    }
+}
